@@ -162,7 +162,7 @@
   
   .username {
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 3px;
   }
   
   .time {
@@ -420,3 +420,33 @@
     font-size: 12px;
     letter-spacing: 0.3px;
   } 
+
+  /* responsiveness */
+  @media screen and (max-width: 760px) {
+    .suggestions, .right_column {
+        display: none;
+    }
+    .Instagram {
+        height: 30px;
+    }
+      
+    .Instagram img {
+        height: 100%;
+    }
+
+    #explore {
+        height: 20px;
+    }
+      
+    #like {
+        height: 20px;
+        padding-left: 10px;
+    }
+      
+    #profile {
+        height: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
