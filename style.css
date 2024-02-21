@@ -322,7 +322,7 @@
     cursor: pointer;
   }
   
-  .right_side {
+  .stories-panel {
     position: relative;
     left: 15px;
     float: left;
@@ -332,18 +332,18 @@
     padding: 10px 10px 10px 10px;
   }
   
-  .user_img {
+  .profile-picture {
     width: 50px;
     border-radius: 50%;
     display: inline-block;
   }
   
-  .user_username {
+  .profile-username {
     position: relative;
     bottom: 25px;
   }
   
-  .user_name {
+  .real-name {
     position: relative;
     font-family: 'proxima-nova', sans-serif;
     font-size: 12px;
@@ -353,7 +353,7 @@
     display: inline-block;
   }
   
-  .story {
+  .stories-title {
     display: block;
     border-top: 1px solid gray;
     padding-top: 10px;
@@ -362,7 +362,7 @@
     font-weight: bold;
   }
   
-  .watch_all {
+  .view-all-stories {
     position: relative;
     float: right;
     font-size: 12px;
@@ -373,19 +373,19 @@
     font-family: 'proxima-nova', sans-serif;
   }
   
-  .stories {
+  .story-collection {
     width: 300px;
     height: 250px;
     overflow: scroll;
     border-bottom: 1px solid gray;
   }
   
-  .story_div {
+  .story-item {
     padding-left: 10px;
     padding-bottom: 10px;
   }
   
-  .story_img {
+  .story-thumbnail {
     width: 50px;
     height: 50px;
     object-fit: cover;
@@ -394,12 +394,12 @@
     background: linear-gradient(45deg, yellow, red) border-box;
   }
   
-  .story_username {
+  .story-creator {
     position: relative;
     bottom: 25px;
   }
   
-  .timeago {
+  .story-posted-time {
     font-size: 10px;
     color: rgb(140, 140, 140);
     position: relative;
