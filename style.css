@@ -430,7 +430,7 @@
 
   /* responsiveness */
   @media screen and (max-width: 760px) {
-    .suggestions, .right_side {
+    .suggestions, .stories-panel {
         display: none;
     }
     .Instagram {
